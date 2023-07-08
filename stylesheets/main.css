@@ -1,28 +1,117 @@
 /* Global css */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
+.orance-color {
+    color: #FD6E0A;
+}
+button{
+    cursor: pointer;
+}
+
+.button-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header {
+    background-image: url('./../images/header_bg.png'), url('./../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, center left 20px;
+    background-color: #FFF8F3;
+
+}
+
 /* navigation bar styles */
-.mainNavBar{
+.mainNavBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 230px;
 }
-.mainNavBar >ul{
+
+.navlogoText {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.mainNavBar>ul {
     display: flex;
     gap: 80px;
+    align-items: center;
 }
-.mainNavBar >ul>li{
+
+.mainNavBar>ul>li {
     list-style: none;
 }
-.mainNavBar >ul>li>a{
+
+.mainNavBar>ul>li>a {
     text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
-.button-primary{
-    color: red;
+
+#hiremebutton {
+    padding: 19px 35px;
+}
+
+/* banner style here */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 230px;
+}
+
+.bannertext {
+
+    max-width: 550px;
+}
+
+.bannertext>h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.bannertext>h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 5px 0px 20px 0px;
+}
+
+.bannertext>p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-button {
+    padding: 21px 23px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.callmebutton {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    margin-left: 30px;
+
 }
