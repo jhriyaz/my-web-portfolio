@@ -1,0 +1,28 @@
+/* Global css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* navigation bar styles */
+.mainNavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 230px;
+}
+.mainNavBar >ul{
+    display: flex;
+    gap: 80px;
+}
+.mainNavBar >ul>li{
+    list-style: none;
+}
+.mainNavBar >ul>li>a{
+    text-decoration: none;
+}
+.button-primary{
+    color: red;
+}
