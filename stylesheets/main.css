@@ -195,3 +195,46 @@ font-size: 16px;
 font-weight: 400;
 line-height: 28px;
 }
+/* A summary of My Resume styles */
+
+#samaryresume{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.summaryitembox{
+width: 510px;
+}
+.samacoloumn h1{
+    color:#474747;
+font-size: 30px;
+font-weight: 700;
+margin: 110px 0px 30px 0px;
+}
+.samacoloumn h2{
+    color:#474747;
+font-size: 25px;
+font-weight: 700;
+}
+.samacoloumn h3{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+padding: 10px 0px;
+}
+.samacoloumn p{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+padding: 10px 0px 30px 0px;
+}
+.samacoloumn hr{
+    margin-bottom: 30px;
+}
+.samaryresume>button{
+padding: 18px;
+text-align: center;
+display: block;
+margin: 50px auto;
+}
